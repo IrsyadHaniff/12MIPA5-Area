@@ -1,0 +1,47 @@
+html,body {
+  background-color: #fff;
+}
+
+.judul h1 {
+  text-align: center;
+  font-family: Times New Roman;
+}
+
+.typewriter p {
+  /*posisi text*/
+  text-align: center;
+  overflow: hidden; /* memastikan konten tidak tampil sebelum animasi dimulai */
+  border-right: .15em solid orange; /* cursor pada typewriter */
+  white-space: nowrap; /* tetap menjaga konten berada pada satu garis */
+  margin: 0 auto; /* membuat efek scrolling pada saat animasi berjalan */
+  letter-spacing: .15em; /* tambhakan bila di perlukan */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* efek pengetikan */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+#pembuka {
+  background-color: #0099ff;
+  text-align: center;
+  color: white;
+}
+
+.btn1 {
+	display: inline-block;
+	margin: 1em 0 0 0;
+	background-color: blue;
+	color: #ffffff;
+	text-transform: uppercase;
+	border: none;
+	text-decoration: none;
+	font-weight: 800;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border: 2px solid white;
+}
