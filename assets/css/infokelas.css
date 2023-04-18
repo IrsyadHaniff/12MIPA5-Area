@@ -1,0 +1,45 @@
+.container-fluid a {
+  color: #fff;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.content {
+  padding: 2rem 1rem;
+}
+
+.content h3 {
+  color: lime;
+}
+
+.content h1 {
+  color: Fuchsia;
+}
+
+.content h5 {
+  color: white;
+}
+
+.content h2 {
+  color: Fuchsia;
+}
+
+.navbar {
+  background-color: #38AADB;
+}
+
+.btn1 {
+	display: inline-block;
+	margin: 1em 0 0 0;
+	background-color: purple;
+	color: #ffffff;
+	text-transform: uppercase;
+	border: none;
+	text-decoration: none;
+	font-weight: 800;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border: 2px solid black;
+}

@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+}
+
+.banner video {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.banner h4 {
+  font-family: Times New Roman;
+  color: white;
+}
+.batik h4 {
+  text-align: center;
+  font-family: Times New Roman;
+  color: #83011E;
+}

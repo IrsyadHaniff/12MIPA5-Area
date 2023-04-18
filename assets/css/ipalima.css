@@ -1,0 +1,130 @@
+html,body {
+  padding: 0;
+  margin: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #67FFF8;
+}
+
+.jumbotron img {
+  width: 50%;
+  height: 50%;
+}
+
+#Jamkos {
+  background-color: #FFFFFF;
+}
+
+#video {
+  background-color: #FFE00F;
+}
+
+#footer {
+  background-color: #00FFFF;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+.lanjut h2 {
+  text-align: center;
+  color: red;
+}
+
+.galery h2 {
+  font-family: Times New Roman;
+  color: #FE02FF;
+  text-shadow: 0 0 5px #000,
+  0 0 10px #000,
+  0 0 20px #FE02FF,
+  0 0 25px #FE02FF,
+  0 0 30px #FE02FF;
+}
+
+.agustus h4 {
+  text-align: center;
+  font-family: Times New Roman;
+  color: #FF0114;
+}
+
+.praktikum h4 {
+  text-align: center;
+  font-family: Times New Roman;
+  color: #A802F4;
+}
+
+.batik h4 {
+  text-align: center;
+  font-family: Times New Roman;
+  color: #83011E;
+}
+
+.textjj h2 {
+  color: #0103FF;
+  text-align: center;
+  font-family: Times New Roman;
+  text-shadow: 0 0 5px #000,
+  0 0 10px #000,
+  0 0 20px #79fffd,
+  0 0 25px #79fffd,
+  0 0 30px #79fffd;
+}
+
+.textjj h6 {
+  color: #ff0f03;
+  text-align: center;
+  font-family: Trebuchet MS;
+}
+
+.record-text h2 {
+  color: #9DFF77;
+  text-align: center;
+  font-family: Times New Roman;
+  text-shadow: 0 0 5px #000,
+  0 0 10px #000,
+  0 0 20px #9DFF77,
+  0 0 25px #9DFF77,
+  0 0 30px #9DFF77;
+}
+
+.btn1 {
+	display: inline-block;
+	margin: 1em 0 0 0;
+	background-color: Fuchsia;
+	color: #ffffff;
+	text-transform: uppercase;
+	border: none;
+	text-decoration: none;
+	font-weight: 800;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+
+.to-top {
+  background: white;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#1f1f1f;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
